@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2025-01
+date: 2025-01-01
 venue: 'Transactions on Machine Learning Research'
 slidesurl: 'http://shar01.github.io/files/slides1.pdf'
 paperurl: 'https://openreview.net/pdf?id=Bmy82p2eez'
