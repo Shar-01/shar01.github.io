@@ -1,14 +1,12 @@
 ---
-title: "Paper Title Number 2"
+title: "A function approximator model for robust online foot angle trajectory prediction using a single IMU sensor: Implication for controlling active prosthetic feet"
 collection: publications
 category: manuscripts
 permalink: /publication/2010-10-01-paper-title-number-2
 excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+date: 2022-03-15
+venue: 'IEEE Transactions on Industrial Informatics'
+citation: 'Dey, S., & Schilling, A. F. (2022). A function approximator model for robust online foot angle trajectory prediction using a single IMU sensor: Implication for controlling active prosthetic feet. <i>IEEE Transactions on Industrial Informatics</i>, 19(2), 1467-1475.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Lower limb dysfunction hinders the locomotive activity in individuals and compels them to use assistive devices such as prostheses or orthoses to restore the missing locomotive functions. Passive assistive devices have limitations in replacing the lost functionality. On the other hand, active devices could restore more natural locomotion using motorized joints. To make proper use of these embedded motors, a control architecture is required to translate the motion intent of the user into the intended prosthesis joint trajectories. In this article, we propose a temporal convolution-based online foot angle trajectory prediction network (FATP-N) that predicts the foot angular positions during unconstrained walking from the shank angular position measured using a single wearable motion tracker sensor. The data acquisition experiments were designed to reflect natural gait with turns, varying inclines, speeds, and mixed cadences. The trained models were prepared for real-time prediction by compressing them to reduce the storage and time complexity. The validations were performed on different motion conditions, including those that have not been used for model training, to verify the robustness of the model. The proposed FATP-N achieved high accuracy and could generate predictions in real time. The results indicate that the proposed approach offers a possible architecture for real-time control of powered intelligent prostheses.
