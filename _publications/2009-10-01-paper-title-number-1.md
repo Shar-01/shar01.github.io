@@ -3,7 +3,7 @@ title: "Continual Learning from Simulated Interactions via Multitask Prospective
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: 'We develop a continually adaptive multitask model that learns lower‑limb coordination from human gait, using prospective rehearsal to anticipate and correct bionic prosthesis movements across diverse terrains and outperforming baselines under shifts and noise.'
 date: 2025-01-01
 venue: 'Transactions on Machine Learning Research'
 slidesurl: 'http://shar01.github.io/files/slides1.pdf'
