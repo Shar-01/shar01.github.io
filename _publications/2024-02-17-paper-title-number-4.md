@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 4"
+title: "Feasibility of Training a Random Forest Model With Incomplete User-Specific Data for Devising a Control Strategy for Active Biomimetic Ankle"
 collection: publications
 category: manuscripts
 permalink: /publication/2024-02-17-paper-title-number-4
