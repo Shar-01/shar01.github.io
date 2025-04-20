@@ -3,7 +3,7 @@ title: "A function approximator model for robust online foot angle trajectory pr
 collection: publications
 category: manuscripts
 permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
+excerpt: 'We introduce FATP‑N, a compressed temporal‑convolutional network that converts a single shank‑mounted sensor’s data into real‑time foot‑angle trajectories across varied, natural gaits, offering a robust control architecture that overcomes passive prosthesis limitations and enables powered lower‑limb devices to restore more natural locomotion.'
 date: 2022-03-15
 venue: 'IEEE Transactions on Industrial Informatics'
 citation: 'Dey, S., & Schilling, A. F. (2022). A function approximator model for robust online foot angle trajectory prediction using a single IMU sensor: Implication for controlling active prosthetic feet. <i>IEEE Transactions on Industrial Informatics</i>, 19(2), 1467-1475.'
