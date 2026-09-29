@@ -57,3 +57,11 @@ The form collects a name, reply email, institution, enquiry topic, message, and 
 The owner authorized FormSubmit and recipient activation was completed on September 29, 2026. A direct routing test reached the inbox with subject `website_contact`. Delivery through the public opaque endpoint and delivery of attachments remain unverified, so the live form stays in `pending` mode with submission disabled. Do not mark it active until an end-to-end test confirms both the message and attachment arrive through the opaque endpoint. Once verified, put that endpoint in the form action, change `data-delivery` to `active`, and remove the submit button's initial disabled attribute. The recipient address must not be included in browser-visible form markup or scripts.
 
 The provider's public endpoint token is safe to include in the form action. Never publish activation links, archive/API keys, or mailbox credentials. The redesigned page and form do not display the recipient address. The owner’s CV is excluded from the published assets.
+
+## Search discovery
+
+The live homepage is indexable and declares its canonical URL. The sitemap at https://shar-01.github.io/shar01.github.io/sitemap.xml contains only that homepage; the thank-you page remains noindex. Update its lastmod date after substantive page changes. Person structured data identifies Sharmita Dey, her portrait, UC Berkeley and ETH Zurich, and her established profiles.
+
+In Google Search Console, verify a URL-prefix property for https://shar-01.github.io/shar01.github.io/ using the generated HTML verification tag or file, then inspect the homepage URL, request indexing, and submit sitemap.xml. A verification token must come from the owner’s Search Console account; none is fabricated or published here. Link to this same homepage from established public profiles. Indexing and ranking are controlled by search engines and are not guaranteed.
+
+This is a GitHub Pages project site. Search engines read robots.txt only at the host root, so a robots.txt inside this project directory would not control crawling. The host root currently returns 404 for robots.txt, which does not block crawling.
