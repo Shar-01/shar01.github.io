@@ -9,21 +9,21 @@ window.SITE_DATA = {
     },
     {
       "date": "2026",
-      "title": "€2M Volkswagen Foundation grant",
+      "title": "€2.2 million Volkswagen Foundation grant",
       "tag": "GROUP LEADERSHIP",
       "description": "Establishing a research group on world foundation models for embodied interactions, advancing physical AI and assistive robotics.",
       "url": "https://www.linkedin.com/posts/sharmita-dey-23087b24_volkswagenfoundation-activity-7483101518875766784-QzL-"
     },
     {
-      "date": "INCOMING",
+      "date": "CURRENT",
       "title": "Visiting Scholar at UC Berkeley",
-      "description": "An upcoming chapter in my research on physical AI and intelligent embodied systems.",
+      "description": "Research on physical AI and intelligent embodied systems at the University of California, Berkeley.",
       "url": "#about"
     },
     {
       "date": "AUG 2026",
-      "title": "Joining the IPAI Science Residency",
-      "description": "Part of the inaugural cohort at the IPAI Foundation, developing intelligent robotic prostheses that respond to spoken language.",
+      "title": "Joining the Science Residency",
+      "description": "Part of the inaugural cohort at the Innovation Park Artificial Intelligence Foundation, developing intelligent robotic prostheses that respond to spoken language.",
       "url": "https://de.linkedin.com/posts/ipai-foundation-heilbronn_ipaifoundation-scienceresidency-aiforgood-activity-7491410764780539904-zvwm"
     },
     {
@@ -41,7 +41,7 @@ window.SITE_DATA = {
     {
       "date": "FUNDING",
       "title": "€210K for foundation models in assistive robotics",
-      "description": "An Innovation Park AI grant supports a proof of concept for intelligent assistive systems.",
+      "description": "A grant from the Innovation Park Artificial Intelligence Foundation supports a proof of concept for intelligent assistive systems.",
       "url": "#research"
     }
   ],

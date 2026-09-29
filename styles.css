@@ -2641,7 +2641,7 @@ body { font-size:var(--type-body); line-height:1.6; }
 h1,h2,h3,.project-title { font-family:var(--sans); font-style:normal; font-weight:700; letter-spacing:-.025em; line-height:1.2; }
 .hero h1 em,.hero-statement em,.portrait-note,em { font-style:normal; }
 .hero h1 { font-size:28px; font-weight:700; margin:10px 0 12px; letter-spacing:-.025em; }
-.hero-statement { font-size:clamp(28px,2.7vw,32px); font-weight:700; line-height:1.2; letter-spacing:-.025em; text-wrap:wrap; }
+.hero-statement { font-size:clamp(20px,2vw,24px); font-weight:700; line-height:1.2; letter-spacing:-.025em; text-wrap:wrap; }
 h2,.compact h2,.vision-main h2,.about-copy h2,.contact-main h2,.contact-copy h2,.contact-heading { font-size:28px; line-height:1.2; letter-spacing:-.025em; }
 .news-row h3,.publication-row h3,.project-title-row .project-title,.featured .project-title-row .project-title,.vision-principles h3,.position-list h3 { font-size:18px; font-weight:700; line-height:1.35; letter-spacing:-.015em; }
 .hero-description,.section-intro,.news-row p,.project-description,.vision-main>p:not(.eyebrow),.vision-principles p,.publication-summary,.about-copy>p:not(.eyebrow),.contact-copy>p,.contact-status,.dialog-description,.dialog-note { font-size:var(--type-body); font-weight:400; line-height:1.6; }
@@ -2770,7 +2770,7 @@ h2,.compact h2,.vision-main h2,.about-copy h2,.contact-main h2,.contact-copy h2,
   .hero { grid-template-columns:148px minmax(0,1fr); gap:16px; }
   .hero-visual { width:148px; max-width:148px; }
   .portrait img { width:136px; height:136px; }
-  .hero-statement { font-size:28px; }
+  .hero-statement { font-size:22px; }
   .hero .eyebrow { font-size:var(--type-ui); }
   .hero-bottom { margin-top:0; }
   .section-heading { display:flex; flex-wrap:wrap; gap:12px 16px; }
@@ -2789,7 +2789,7 @@ h2,.compact h2,.vision-main h2,.about-copy h2,.contact-main h2,.contact-copy h2,
   .hero { grid-template-columns:1fr; gap:0; padding-top:22px; }
   .hero-copy { grid-column:1; grid-row:1; }
   .hero h1 { font-size:26px; }
-  .hero-statement { font-size:28px; line-height:1.2; }
+  .hero-statement { font-size:22px; line-height:1.3; }
   .hero-statement em { white-space:normal; }
   h2,.compact h2,.vision-main h2,.about-copy h2,.contact-main h2,.contact-copy h2 { font-size:24px; }
   .hero .eyebrow { font-size:var(--type-ui); }
@@ -2843,7 +2843,7 @@ h2,.compact h2,.vision-main h2,.about-copy h2,.contact-main h2,.contact-copy h2,
 @media(max-width:370px) {
   .wordmark-label { padding-left:12px; }
   .wordmark { gap:12px; }
-  .hero-statement { font-size:28px; }
+  .hero-statement { font-size:22px; }
   .hero-affiliations { gap:12px; }
   .hero-affiliations>span+span { padding-left:12px; }
   .research-loop { gap:8px; }
@@ -2855,7 +2855,8 @@ h2,.compact h2,.vision-main h2,.about-copy h2,.contact-main h2,.contact-copy h2,
   .news-section,.research-section,.publications-section,.about-section,.contact-section,.vision-inner { padding-block:18px; }
 }
 
-/* A single descriptive heading per section, with no separate numbered label. */
+/* A single descriptive heading per section, using the theme accent. */
+h2 .heading-accent { color:var(--accent); }
 .research-section .section-heading { display:block; }
 .research-section .section-intro { max-width:100%; margin-top:8px; }
 .vision-inner>h2,.about-section>h2 { grid-column:1 / -1; margin:0; }
