@@ -1,0 +1,12 @@
+.tools/
+.browser-profile/
+/research/
+scripts/extract_presentations.py
+__pycache__/
+dist/
+sharmita-dey-website.zip
+.publish/
+*.log
+.env
+.env.*
+!.env.example
