@@ -40,7 +40,7 @@ window.SITE_DATA = {
     {
       "date": "APR 2026",
       "title": "From autonomy to alliance, in Science Robotics",
-      "description": "Our viewpoint lays out a research agenda for robot foundation models that learn with humans and other robots.",
+      "description": "My research paper lays out a research agenda for robot foundation models that learn with humans and other robots.",
       "url": "https://doi.org/10.1126/scirobotics.aea1822"
     },
     {
@@ -75,15 +75,15 @@ window.SITE_DATA = {
     },
     {
       "id": "world",
-      "title": "World models for embodied adaptation",
+      "title": "Continual learning and world models for embodied adaptation",
       "category": "WORLD MODELS · CONTINUAL LEARNING",
       "image": "assets/research/world-models.webp",
       "alt": "TMLR prospective rehearsal framework showing model pretraining, simulated interactions, and continual refinement",
       "label": "TMLR 2025",
       "featured": true,
-      "description": "Learning from simulated interactions to anticipate physical dynamics and continually adapt control behavior.",
-      "detail": "World models offer a way to learn from interactions before carrying them out. In our TMLR work, multitask prospective rehearsal uses simulated experience to adapt bionic limb behavior across locomotion tasks. My ongoing research extends this perspective toward world models for scene understanding, action prediction, and embodied control.",
-      "meta": "Prospective rehearsal / Scene understanding / Control",
+      "description": "Developing continual learning models that use simulated interactions to anticipate physical dynamics and adapt control behavior over time.",
+      "detail": "Continual learning and world models offer a way to build on past experience and learn from interactions before carrying them out. In our TMLR work, multitask prospective rehearsal uses simulated experience to adapt bionic limb behavior across locomotion tasks. My ongoing research develops continual learning models alongside world models for scene understanding, action prediction, and embodied control.",
+      "meta": "Continual learning / Prospective rehearsal / Control",
       "caption": "Figure 1. Multitask prospective rehearsal: pretraining, simulated interaction, and refinement. Extracted directly from Dey et al., TMLR (2025).",
       "secondaryImage": "assets/research/world-models-results.webp",
       "secondaryAlt": "Experimental results from the prospective rehearsal world-model study",
@@ -176,13 +176,13 @@ window.SITE_DATA = {
     {
       "id": "bionics",
       "title": "Trustworthy foundation models for bionic intelligence",
-      "category": "TRUSTWORTHY AI · ASSISTIVE ROBOTICS",
+      "category": "REASONING MODELS · ASSISTIVE ROBOTICS",
       "image": "assets/research/bionic-intelligence.png",
       "alt": "Artificial-intelligence schematic linked to a robotic prosthetic ankle and foot, from my research presentation",
       "label": "BIONIC INTELLIGENCE",
-      "description": "Building trustworthy foundation models to make assistive technologies more intelligent, adaptable, and safer. Systems should also be able to reason about their decisions.",
-      "detail": "This research direction explores foundation models that connect human intent, multimodal sensing, and adaptive control for assistive devices. The aim is to help bionic systems learn from experience and adapt to different users and everyday situations, with trustworthiness and safety guiding their development and evaluation. Systems should also be able to reason about their decisions.",
-      "meta": "Assistive technologies / Adaptation / Trustworthy AI",
+      "description": "Developing advanced reasoning models for intelligent, adaptable, and safer assistive technologies. Models should reason over possible actions, recognize uncertainty, and use new evidence to guide decisions.",
+      "detail": "This research direction explores foundation models that combine multimodal understanding with multi-step reasoning for bionic intelligence. The goal is to enable assistive systems to reason over possible actions and their consequences, assess uncertainty in unfamiliar situations, and seek additional information when needed. By linking these capabilities with continual learning and adaptive control, I aim to build systems that refine their decisions as new evidence arrives and adapt to individual users.",
+      "meta": "Multi-step reasoning / Uncertainty / Adaptive control",
       "caption": "Representative illustration of AI connected to a robotic prosthetic ankle and foot, from the embodied behavior models section of my research presentation.",
       "links": [
         {

@@ -20,7 +20,7 @@ Visit **http://localhost:8000**. The server builds and serves only the public si
 - `app.js`: project dialogs, video, reduced-motion controls, publication search and filtering, citations, and navigation.
 - `contact-form.js`: attachment validation, delivery checks, and native multipart form submission.
 - `thanks.html`: confirmation after the delivery service accepts a submission.
-- `assets/`: public images, animation, video, CV, and generated BibTeX.
+- `assets/`: public images, animation, video, and generated BibTeX.
 
 After editing, run `python scripts/build.py`. This refreshes `dist/`, the downloadable BibTeX, and `sharmita-dey-website.zip`. Deploy the **contents of `dist/`** to any static web host. No Node.js, build framework, analytics, or self-hosted backend is required. Contact delivery uses FormSubmit after recipient activation. When deploying from the development machine, use `dist/`: the working folder also contains ignored document extracts and local review tools. GitHub Pages can safely publish the repository root because those local files are not committed.
 
@@ -40,7 +40,7 @@ Sources were reviewed on September 29, 2026. Primary publisher records and publi
 - The owner confirmed €2.2 million in Volkswagen Foundation funding, updating the earlier public announcement's rounded amount and superseding the older CV's pending status. The €210K Innovation Park Artificial Intelligence Foundation grant is stated in the supplied presentations.
 - Workshop papers and preprints are labeled separately from main-conference publications.
 - KIT appears in a proposed lab vision within a presentation and is not represented as a current appointment.
-- The downloadable PDF is the supplied CV, unchanged; its funding status predates the newer news on the site.
+- The owner requested removal of the CV from the public website. The source PDF is retained only as an ignored local research reference; Google Scholar is the public publication link.
 
 The original figures and video are preserved; no scientific visuals or personal portrait were AI-generated. Publication links and figure attributions are included on the website. Working source notes, document extracts, and asset inventories are maintained locally under `research/` and are intentionally excluded from Git.
 
@@ -56,4 +56,4 @@ The form collects a name, reply email, institution, enquiry topic, message, and 
 
 The owner authorized FormSubmit and recipient activation was completed on September 29, 2026. A direct routing test reached the inbox with subject `website_contact`. Delivery through the public opaque endpoint and delivery of attachments remain unverified, so the live form stays in `pending` mode with submission disabled. Do not mark it active until an end-to-end test confirms both the message and attachment arrive through the opaque endpoint. Once verified, put that endpoint in the form action, change `data-delivery` to `active`, and remove the submit button's initial disabled attribute. The recipient address must not be included in browser-visible form markup or scripts.
 
-The provider's public endpoint token is safe to include in the form action. Never publish activation links, archive/API keys, or mailbox credentials. The original downloadable CV and legacy Academic Pages source retain their historical contact details; the redesigned page and form do not display the recipient address.
+The provider's public endpoint token is safe to include in the form action. Never publish activation links, archive/API keys, or mailbox credentials. The redesigned page and form do not display the recipient address. The owner’s CV is excluded from the published assets.
