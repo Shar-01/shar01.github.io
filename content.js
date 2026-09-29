@@ -105,7 +105,7 @@ window.SITE_DATA = {
       "links": [
         {
           "label": "Discuss this research",
-          "url": "mailto:dey.sharmita01@gmail.com?subject=Object%20interaction%20and%20dynamics%20research"
+          "url": "#contact"
         }
       ]
     },

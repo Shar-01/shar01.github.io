@@ -121,6 +121,15 @@
     }
   });
 
+  $('#project-dialog').addEventListener('click', event => {
+    if (!event.target.closest('a[href="#contact"]')) return;
+    event.preventDefault();
+    lastDialogTrigger = null;
+    $('#project-dialog').close();
+    $('#contact').scrollIntoView({ behavior: motionPreference.matches ? 'instant' : 'smooth' });
+    $('#contact-name').focus({ preventScroll: true });
+  });
+
   const menu = $('.menu-toggle');
   const nav = $('#primary-nav');
   function closeMenu() { nav.classList.remove('open'); menu.setAttribute('aria-expanded','false'); $('span',menu).textContent = '＋'; }
