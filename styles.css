@@ -2660,6 +2660,7 @@ h2,.compact h2,.vision-main h2,.about-copy h2,.contact-main h2,.contact-copy h2,
 .button,.hero-actions .button { gap:16px; padding:10px 16px; min-height:42px; }
 .section-shell,.site-header { width:min(var(--max),calc(100% - 48px)); }
 .site-header { height:72px; }
+.site-header-navigation { justify-content:flex-end; }
 .site-header nav { gap:18px; }
 .wordmark { gap:16px; }
 .wordmark-label { padding-left:16px; }
@@ -2698,6 +2699,7 @@ h2,.compact h2,.vision-main h2,.about-copy h2,.contact-main h2,.contact-copy h2,
 .project-button,.project-card:last-child .project-button { display:grid; grid-template-columns:132px minmax(0,1fr); gap:6px 14px; align-content:start; }
 .project-image,.project-card.featured .project-image,.project-card:last-child .project-image { grid-column:1; grid-row:1 / span 4; height:110px; align-self:start; }
 .project-image img { padding:7px; }
+.project-button[data-project="bionics"] .project-image { background:#fff; }
 .project-image.object-image img { width:110px; height:110px; }
 .project-type,.project-card:last-child .project-type { grid-column:2; margin:0; text-transform:none; min-height:0; color:var(--accent); }
 .project-title-row { grid-column:2; margin:0; gap:8px; }
@@ -2708,6 +2710,8 @@ h2,.compact h2,.vision-main h2,.about-copy h2,.contact-main h2,.contact-copy h2,
 .project-card:has(>.motion-toggle) { min-height:168px; }
 .vision-inner { grid-template-columns:minmax(0,1.2fr) minmax(0,1fr); gap:14px 20px; }
 .vision-main>p:not(.eyebrow) { margin-top:14px; }
+.vision-quote { margin:14px 0 0; padding-left:14px; border-left:2px solid var(--accent); color:var(--ink); }
+.vision-quote p { font-size:var(--type-body); font-weight:400; line-height:1.6; }
 .vision-link { margin-top:16px; }
 .vision-principles>div { padding:12px 0 12px 30px; }
 .vision-principles span { top:14px; }

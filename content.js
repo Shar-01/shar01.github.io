@@ -3,16 +3,21 @@ window.SITE_DATA = {
     {
       "date": "SEP 2026",
       "title": "Top 100+ Women in AI, Data & Robotics in Switzerland",
-      "tag": "RECOGNITION",
       "description": "Recognized in the Academia category of the 2026 selection celebrating women shaping AI, data and robotics across Switzerland.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510361528068407296/"
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510361528068407296/",
+      "tags": [
+        "RECOGNITION"
+      ]
     },
     {
-      "date": "2026",
+      "date": "JUL 2026",
       "title": "€2.2 million Volkswagen Foundation grant",
-      "tag": "GROUP LEADERSHIP",
       "description": "Establishing a research group on world foundation models for embodied interactions, advancing physical AI and assistive robotics.",
-      "url": "https://www.linkedin.com/posts/sharmita-dey-23087b24_volkswagenfoundation-activity-7483101518875766784-QzL-"
+      "url": "https://www.linkedin.com/posts/sharmita-dey-23087b24_volkswagenfoundation-activity-7483101518875766784-QzL-",
+      "tags": [
+        "GROUP LEADERSHIP",
+        "FUNDING"
+      ]
     },
     {
       "date": "CURRENT",
@@ -39,10 +44,13 @@ window.SITE_DATA = {
       "url": "https://doi.org/10.1126/scirobotics.aea1822"
     },
     {
-      "date": "FUNDING",
+      "date": "FEB 2026",
       "title": "€210K for foundation models in assistive robotics",
       "description": "A grant from the Innovation Park Artificial Intelligence Foundation supports a proof of concept for intelligent assistive systems.",
-      "url": "#research"
+      "url": "#research",
+      "tags": [
+        "FUNDING"
+      ]
     }
   ],
   "projects": [
@@ -162,6 +170,24 @@ window.SITE_DATA = {
         {
           "label": "LaMbDA · SD4H 2026 workshop",
           "url": "https://openreview.net/forum?id=jy2DdtRxvH"
+        }
+      ]
+    },
+    {
+      "id": "bionics",
+      "title": "Trustworthy foundation models for bionic intelligence",
+      "category": "TRUSTWORTHY AI · ASSISTIVE ROBOTICS",
+      "image": "assets/research/bionic-intelligence.png",
+      "alt": "Artificial-intelligence schematic linked to a robotic prosthetic ankle and foot, from my research presentation",
+      "label": "BIONIC INTELLIGENCE",
+      "description": "Building trustworthy foundation models to make assistive technologies more intelligent, adaptable, and safer.",
+      "detail": "This research direction explores foundation models that connect human intent, multimodal sensing, and adaptive control for assistive devices. The aim is to help bionic systems learn from experience and adapt to different users and everyday situations, with trustworthiness and safety guiding their development and evaluation.",
+      "meta": "Assistive technologies / Adaptation / Trustworthy AI",
+      "caption": "Representative illustration of AI connected to a robotic prosthetic ankle and foot, from the embodied behavior models section of my research presentation.",
+      "links": [
+        {
+          "label": "Discuss this research",
+          "url": "#contact"
         }
       ]
     }

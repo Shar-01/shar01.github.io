@@ -1,6 +1,6 @@
 # Sharmita Dey — personal research website
 
-A responsive, dependency-free website about physical AI, world models, robot learning, and embodied interaction. It includes five research projects, original presentation figures, an animated object-interaction example, an embedded robotics experiment, selected publications, BibTeX citations, current positions, and news.
+A responsive, dependency-free website about physical AI, world models, robot learning, and embodied interaction. It includes six research projects, original presentation figures, an animated object-interaction example, an embedded robotics experiment, selected publications, BibTeX citations, current positions, and news.
 
 ## Preview
 
@@ -34,6 +34,8 @@ Sources were reviewed on September 29, 2026. Primary publisher records and publi
 - The UC Berkeley Visiting Scholar role is current, as corrected by the owner. No host, lab, or start date is invented.
 - The incoming group leadership uses the publicly announced research focus and the owner's confirmed incoming status. The exact formal title and host institution await the owner's details.
 - ETH Zurich is now Guest Scientist, as corrected by the owner; the postdoctoral appointment ran from November 2024 through August 2026. Göttingen follows the CV, and the Innovation Park Artificial Intelligence Foundation residency follows the official announcement.
+- The owner supplied July 2026 for the Volkswagen Foundation award and February 2026 for the €210K assistive robotics grant.
+- The vision quotation and the goal for trustworthy foundation models for bionic intelligence were supplied by the owner. The new project is presented as a research direction, with a representative figure from the supplied presentation.
 - The owner confirmed €2.2 million in Volkswagen Foundation funding, updating the earlier public announcement's rounded amount and superseding the older CV's pending status. The €210K Innovation Park Artificial Intelligence Foundation grant is stated in the supplied presentations.
 - Workshop papers and preprints are labeled separately from main-conference publications.
 - KIT appears in a proposed lab vision within a presentation and is not represented as a current appointment.

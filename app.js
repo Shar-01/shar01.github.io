@@ -10,7 +10,7 @@
   let activeFilter = 'all';
   let lastDialogTrigger = null;
 
-  $('#news-list').innerHTML = news.map((item, index) => `<a class="news-row" href="${escape(item.url)}"${external(item.url)}${index > 2 ? ' hidden data-extra-news' : ''}><span class="news-date">${escape(item.date)}</span><div><h3>${escape(item.title)}${item.tag ? `<span class="news-tag">${escape(item.tag)}</span>` : ''}</h3><p>${escape(item.description)}</p></div><span class="news-arrow" aria-hidden="true">${item.url.startsWith('#') ? '↘' : '↗'}</span></a>`).join('');
+  $('#news-list').innerHTML = news.map((item, index) => `<a class="news-row" href="${escape(item.url)}"${external(item.url)}${index > 2 ? ' hidden data-extra-news' : ''}><span class="news-date">${escape(item.date)}</span><div><h3>${escape(item.title)}${(item.tags || []).map(tag => ` <span class="news-tag">${escape(tag)}</span>`).join('')}</h3><p>${escape(item.description)}</p></div><span class="news-arrow" aria-hidden="true">${item.url.startsWith('#') ? '↘' : '↗'}</span></a>`).join('');
   $('#news-more').addEventListener('click', event => {
     const expanded = event.currentTarget.getAttribute('aria-expanded') !== 'true';
     $$('[data-extra-news]').forEach(row => row.hidden = !expanded);

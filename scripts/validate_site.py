@@ -74,7 +74,7 @@ def collect_layout(page, width):
         .map(el => ({tag:el.tagName,class:el.className,right:Math.round(el.getBoundingClientRect().right),left:Math.round(el.getBoundingClientRect().left)})).slice(0,12)
     })''')
     check(f'{width}px: no horizontal page overflow', result['documentWidth'] <= width + 1 and result['bodyWidth'] <= width + 1, result)
-    check(f'{width}px: project cards populated', page.locator('.project-card').count() == 5)
+    check(f'{width}px: project cards populated', page.locator('.project-card').count() == 6)
     check(f'{width}px: hero visible', page.locator('#hero-title').is_visible())
     return result
 
@@ -103,7 +103,7 @@ def run():
             check('Page title identifies researcher', 'Sharmita Dey' in page.title(), page.title())
             check('Page has a single H1', page.locator('h1').count()==1)
             check('Document language is English', page.locator('html').get_attribute('lang')=='en')
-            check('Five research directions are present', page.locator('.project-card').count()==5)
+            check('Six research directions are present', page.locator('.project-card').count()==6)
             total_publications = page.locator('.publication-row:visible').count()
             check('Selected publications rendered', total_publications>=5, {'count':total_publications})
 
