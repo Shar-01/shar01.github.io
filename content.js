@@ -1,6 +1,13 @@
 window.SITE_DATA = {
   "news": [
     {
+      "date": "SEP 2026",
+      "title": "Top 100+ Women in AI, Data & Robotics in Switzerland",
+      "tag": "RECOGNITION",
+      "description": "Recognized in the Academia category of the 2026 selection celebrating women shaping AI, data and robotics across Switzerland.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510361528068407296/"
+    },
+    {
       "date": "2026",
       "title": "€2M Volkswagen Foundation grant",
       "tag": "GROUP LEADERSHIP",

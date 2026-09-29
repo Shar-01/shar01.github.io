@@ -30,9 +30,10 @@ The website is configured for https://shar-01.github.io/shar01.github.io/ with a
 
 Sources were reviewed on September 29, 2026. Primary publisher records and publicly available LinkedIn announcements were used alongside the supplied CV and presentations. Google Scholar's exact profile address came from the CV; direct automated access was blocked. The live LinkedIn feed was not fully accessible, so the news is a curated selection of verifiable public posts, not an exhaustive feed.
 
+- September 2026 recognition in Top 100+ Women in AI, Data & Robotics in Switzerland is verified in the Academia category on page 14 of the [official report](https://www.greaterzuricharea.com/sites/default/files/2026-09/Report_100_AI_Data_women_ch_2026_komp.pdf). This is a selection, not a ranking; the news entry links to the owner-provided LinkedIn announcement.
 - The incoming UC Berkeley visiting role follows the owner's explicit request. No host, lab, or start date is invented.
-- The new group leadership uses the publicly announced research focus. The exact formal title and host institution await the owner's details.
-- ETH Zurich is now Guest Scientist, as corrected by the owner; the postdoctoral appointment ran from November 2024 through September 2026. Göttingen follows the CV, and the IPAI residency follows the official announcement.
+- The incoming group leadership uses the publicly announced research focus and the owner's confirmed incoming status. The exact formal title and host institution await the owner's details.
+- ETH Zurich is now Guest Scientist, as corrected by the owner; the postdoctoral appointment ran from November 2024 through August 2026. Göttingen follows the CV, and the IPAI residency follows the official announcement.
 - €2M Volkswagen funding is supported by the newer public announcement, superseding the older CV's pending status. The €210K Innovation Park AI grant is stated in the supplied presentations.
 - Workshop papers and preprints are labeled separately from main-conference publications.
 - KIT appears in a proposed lab vision within a presentation and is not represented as a current appointment.

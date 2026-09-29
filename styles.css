@@ -2675,7 +2675,7 @@ h2,.compact h2,.vision-main h2,.about-copy h2,.contact-main h2,.contact-copy h2,
 .hero .eyebrow { color:var(--accent); font-size:14px; gap:10px; line-height:1.5; }
 .hero-description { max-width:100%; margin-top:12px; }
 .hero-actions { gap:16px; margin-top:16px; }
-.hero-affiliations { gap:16px; margin-top:16px; }
+.hero-affiliations { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); max-width:820px; gap:16px; margin-top:16px; }
 .hero-affiliations>span { font-size:var(--type-body); font-weight:700; line-height:1.4; }
 .hero-affiliations>span+span { padding-left:16px; }
 .hero-affiliations small { margin-top:3px; }
@@ -2797,6 +2797,8 @@ h2,.compact h2,.vision-main h2,.about-copy h2,.contact-main h2,.contact-copy h2,
   .hero-actions { gap:16px; margin-top:14px; }
   .hero-affiliations { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; margin-top:16px; }
   .hero-affiliations>span+span { padding-left:16px; }
+  .hero-affiliations>span:last-child { grid-column:1 / -1; display:flex; align-items:baseline; flex-wrap:wrap; gap:3px 12px; border-left:0; border-top:1px solid var(--line); padding:8px 0 0; }
+  .hero-affiliations>span:last-child small { margin:0; }
   .hero-visual { grid-column:1; grid-row:2; grid-template-columns:100px minmax(0,1fr); gap:6px 16px; width:100%; max-width:330px; margin-top:20px; }
   .hero-visual .portrait { display:contents; }
   .portrait img { grid-column:1; grid-row:1 / span 2; width:96px; height:96px; }
@@ -2858,3 +2860,15 @@ h2,.compact h2,.vision-main h2,.about-copy h2,.contact-main h2,.contact-copy h2,
 .research-section .section-intro { max-width:100%; margin-top:8px; }
 .vision-inner>h2,.about-section>h2 { grid-column:1 / -1; margin:0; }
 .vision-main>p:first-child,.about-copy>p:first-child { margin-top:0; }
+
+/* A pale blue vision panel continues the page's light research theme. */
+.vision-section { background:#edf3ff; color:var(--ink); border-block:1px solid #d5e1f5; }
+.vision-section:after { height:3px; background:#c7d7f8; }
+.vision-main>p:not(.eyebrow),.vision-principles p { color:#46546d; }
+.vision-principles>div { border-color:#cbd8ee; }
+.vision-principles span { color:var(--accent); }
+.vision-link { color:var(--accent); border-color:currentColor; }
+.vision-link:hover { color:#153dae; border-color:currentColor; }
+@media print {
+  .vision-section { background:#fff; border-color:#ddd; color:#000; }
+}
