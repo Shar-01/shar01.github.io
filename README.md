@@ -20,9 +20,9 @@ Visit **http://localhost:8000**. The server builds and serves only the public si
 - `app.js`: project dialogs, video, reduced-motion controls, publication search and filtering, citations, and navigation.
 - `assets/`: public images, animation, video, CV, and generated BibTeX.
 
-After editing, run `python scripts/build.py`. This refreshes `dist/`, the downloadable BibTeX, and `sharmita-dey-website.zip`. Deploy the **contents of `dist/`** to any static web host. No Node.js, build framework, API key, analytics, or backend is required. Do not deploy the repository root: `research/` contains working extracts from supplied documents, and `.tools/` contains local review dependencies.
+After editing, run `python scripts/build.py`. This refreshes `dist/`, the downloadable BibTeX, and `sharmita-dey-website.zip`. Deploy the **contents of `dist/`** to any static web host. No Node.js, build framework, API key, analytics, or backend is required. When deploying from the development machine, use `dist/`: the working folder also contains ignored document extracts and local review tools. GitHub Pages can safely publish the repository root because those local files are not committed.
 
-Before public deployment, use your final domain for an absolute `og:image` URL and add a canonical URL. Publication and profile links point to external services; access is controlled by those services.
+The website is configured for https://shar-01.github.io/shar01.github.io/ with an absolute social-preview image and canonical URL. The `.nojekyll` file enables direct static publishing through GitHub Pages. Existing Academic Pages source files remain in the repository as an archive; the new root `index.html` is the active homepage. Publication and profile links point to external services; access is controlled by those services.
 
 ## Content provenance and details to confirm
 

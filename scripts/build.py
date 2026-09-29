@@ -22,7 +22,7 @@ def build():
 
     output = ROOT / "dist"
     output.mkdir(exist_ok=True)
-    public_files = [ROOT / name for name in ["index.html", "styles.css", "content.js", "app.js"]]
+    public_files = [ROOT / name for name in ["index.html", "styles.css", "content.js", "app.js", ".nojekyll"]]
     public_files.extend(path for path in (ROOT / "assets").rglob("*") if path.is_file())
     expected = set()
     for source in public_files:
