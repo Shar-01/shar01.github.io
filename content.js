@@ -180,8 +180,8 @@ window.SITE_DATA = {
       "image": "assets/research/bionic-intelligence.png",
       "alt": "Artificial-intelligence schematic linked to a robotic prosthetic ankle and foot, from my research presentation",
       "label": "BIONIC INTELLIGENCE",
-      "description": "Building trustworthy foundation models to make assistive technologies more intelligent, adaptable, and safer.",
-      "detail": "This research direction explores foundation models that connect human intent, multimodal sensing, and adaptive control for assistive devices. The aim is to help bionic systems learn from experience and adapt to different users and everyday situations, with trustworthiness and safety guiding their development and evaluation.",
+      "description": "Building trustworthy foundation models to make assistive technologies more intelligent, adaptable, and safer. Systems should also be able to reason about their decisions.",
+      "detail": "This research direction explores foundation models that connect human intent, multimodal sensing, and adaptive control for assistive devices. The aim is to help bionic systems learn from experience and adapt to different users and everyday situations, with trustworthiness and safety guiding their development and evaluation. Systems should also be able to reason about their decisions.",
       "meta": "Assistive technologies / Adaptation / Trustworthy AI",
       "caption": "Representative illustration of AI connected to a robotic prosthetic ankle and foot, from the embodied behavior models section of my research presentation.",
       "links": [
