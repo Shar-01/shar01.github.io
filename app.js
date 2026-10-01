@@ -10,7 +10,7 @@
   let activeFilter = 'all';
   let lastDialogTrigger = null;
 
-  $('#news-list').innerHTML = news.map((item, index) => `<a class="news-row" href="${escape(item.url)}"${external(item.url)}${index > 2 ? ' hidden data-extra-news' : ''}><span class="news-date">${escape(item.date)}</span><div><h3>${escape(item.title)}${(item.tags || []).map(tag => ` <span class="news-tag">${escape(tag)}</span>`).join('')}</h3><p>${escape(item.description)}</p></div><span class="news-arrow" aria-hidden="true">${item.url.startsWith('#') ? '↘' : '↗'}</span></a>`).join('');
+  $('#news-list').innerHTML = news.map((item, index) => `<a class="news-row" href="${escape(item.url)}"${external(item.url)}${index > 2 ? ' hidden data-extra-news' : ''}><span class="news-date">${escape(item.date)}</span><div><h3>${escape(item.title)}${(item.tags || []).map(tag => ` <span class="news-tag">${escape(tag)}</span>`).join('')}</h3><p>${escape(item.description)}</p></div><span class="news-arrow" aria-hidden="true">↗</span></a>`).join('');
   $('#news-more').addEventListener('click', event => {
     const expanded = event.currentTarget.getAttribute('aria-expanded') !== 'true';
     $$('[data-extra-news]').forEach(row => row.hidden = !expanded);
@@ -72,7 +72,7 @@
   }
   function renderPublications() {
     const query = $('#publication-search').value.trim().toLocaleLowerCase();
-    const shown = publications.filter(paper => (activeFilter === 'all' || paper.categories.includes(activeFilter)) && `${paper.title} ${paper.authors.join(' ')} ${paper.venue} ${paper.year} ${paper.type} ${paper.summary}`.toLocaleLowerCase().includes(query));
+    const shown = publications.filter(paper => (activeFilter === 'all' || paper.categories.includes(activeFilter)) && `${paper.title} ${paper.authors.join(' ')} ${paper.venue} ${paper.venueShort || ''} ${paper.journal || ''} ${paper.year} ${paper.type} ${paper.summary}`.toLocaleLowerCase().includes(query));
     $('#publication-list').innerHTML = shown.map(paper => {
       const displayAuthors = paper.shortAuthors ? paper.authors.slice(0,4) : paper.authors;
       const authors = displayAuthors.map(author => author === 'Sharmita Dey' ? `<strong>${escape(author)}</strong>` : escape(author)).join(', ') + (paper.shortAuthors ? ', et al.' : '');

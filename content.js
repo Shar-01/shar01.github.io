@@ -130,14 +130,14 @@ window.SITE_DATA = {
       "category": "ROBOT LEARNING · ASSISTIVE SYSTEMS",
       "image": "assets/research/embodied-control.webp",
       "alt": "Closed-loop embodied control diagram connecting motion sensors, an AI digital twin, and control commands",
-      "label": "FIGURE + ROBOT EXPERIMENT",
+      "label": "PHD THESIS",
       "description": "Turning human movement and sensor feedback into adaptive behavior for wearable and assistive robots.",
       "detail": "I study learning-based control that connects human intent, sensor feedback, and robot behavior. This work spans motion forecasting, model reprogramming, and adaptive assistive systems. Real-world experiments with wearable robotics ground the learning methods in physical interaction.",
       "meta": "Motion forecasting / Wearable robotics",
-      "caption": "A sensorimotor digital twin for adaptive control, from my research presentation.",
+      "caption": "A sensorimotor digital twin for adaptive control.",
       "video": "assets/research/embodied-control.mp4",
       "poster": "assets/research/embodied-control-poster.webp",
-      "videoDescription": "Silent research demonstration of gait and wearable-robot experiments used to evaluate embodied adaptation. The video is reproduced from the TMLR experiment slide in my presentation; the accompanying paper describes the method and evaluation.",
+      "videoDescription": "Silent demonstration of gait and wearable-robot experiments used to evaluate embodied adaptation. The linked TMLR paper describes the method and evaluation.",
       "links": [
         {
           "label": "ReMAP · NeurIPS 2024",
@@ -183,7 +183,7 @@ window.SITE_DATA = {
       "description": "Developing advanced reasoning models for intelligent, adaptable, and safer assistive technologies. Models should reason over possible actions, recognize uncertainty, and use new evidence to guide decisions.",
       "detail": "This research direction explores foundation models that combine multimodal understanding with multi-step reasoning for bionic intelligence. The goal is to enable assistive systems to reason over possible actions and their consequences, assess uncertainty in unfamiliar situations, and seek additional information when needed. By linking these capabilities with continual learning and adaptive control, I aim to build systems that refine their decisions as new evidence arrives and adapt to individual users.",
       "meta": "Multi-step reasoning / Uncertainty / Adaptive control",
-      "caption": "Representative illustration of AI connected to a robotic prosthetic ankle and foot, from the embodied behavior models section of my research presentation.",
+      "caption": "AI schematic connected to a robotic prosthetic ankle and foot.",
       "links": [
         {
           "label": "Discuss this research",
@@ -205,7 +205,7 @@ window.SITE_DATA = {
       "venue": "Science Robotics",
       "venueClass": "science",
       "year": 2026,
-      "type": "Viewpoint",
+      "type": "Journal article",
       "categories": [
         "foundation"
       ],
@@ -228,7 +228,8 @@ window.SITE_DATA = {
         "Sabri Boughorbel",
         "Arndt F. Schilling"
       ],
-      "venue": "TMLR",
+      "venue": "Trans. Machine Learning Research",
+      "venueShort": "TMLR",
       "year": 2025,
       "type": "Journal article",
       "categories": [
