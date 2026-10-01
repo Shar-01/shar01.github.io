@@ -180,7 +180,7 @@ window.SITE_DATA = {
       "image": "assets/research/bionic-intelligence.png",
       "alt": "Artificial-intelligence schematic linked to a robotic prosthetic ankle and foot, from my research presentation",
       "label": "BIONIC INTELLIGENCE",
-      "description": "Developing super intelligent models for intelligent, adaptable, and safer assistive technologies. Models should reason over possible actions, recognize uncertainty, and use new evidence to guide decisions.",
+      "description": "Developing advanced models for superintelligent, adaptable, and safer assistive technologies. Models should reason over possible actions, recognize uncertainty, and use new evidence to guide decisions.",
       "detail": "This research direction explores foundation models that combine multimodal understanding with multi-step reasoning for bionic intelligence. The goal is to enable assistive systems to reason over possible actions and their consequences, assess uncertainty in unfamiliar situations, and seek additional information when needed. By linking these capabilities with continual learning and adaptive control, I aim to build systems that refine their decisions as new evidence arrives and adapt to individual users.",
       "meta": "Multi-step reasoning / Uncertainty / Adaptive control",
       "caption": "AI schematic connected to a robotic prosthetic ankle and foot.",
