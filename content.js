@@ -2,8 +2,8 @@ window.SITE_DATA = {
   "news": [
     {
       "date": "SEP 2026",
-      "title": "Top 100+ Women in AI, Data & Robotics in Switzerland",
-      "description": "Recognized in the Academia category of the 2026 selection celebrating women shaping AI, data and robotics across Switzerland.",
+      "title": "Top 100+ Women in AI, Data & Robotics in Switzerland 2026 report",
+      "description": "Recognized in the Academia category of the 2026 selection celebrating women shaping AI, data and robotics.",
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510361528068407296/",
       "tags": [
         "RECOGNITION"
